@@ -16,16 +16,36 @@ const Search: React.FC<IProps> = () => {
             </div>
             <div className='search__manufacturer manufacturer'>Производитель</div>
             <div className='search__firm firm'>
-              <input className='firm__title title' type='checkbox'/>Canon
-              <input className='firm__title title' type='checkbox'/>Fujifilm
-              <input className='firm__title title' type='checkbox'/>Nikon
-              <input className='firm__title title' type='checkbox'/>Panasonic
-              <input className='firm__title title' type='checkbox'/>Leica
-              <input className='firm__title title' type='checkbox'/>Olympus
-              <input className='firm__title title' type='checkbox'/>Pentax
-              <input className='firm__title title' type='checkbox'/>Sigma
-              <input className='firm__title title' type='checkbox'/>General Electrics
-              <input className='firm__title title' type='checkbox'/>Zenit
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Canon
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Fujifilm
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Nikon
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Panasonic
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Leica
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Olympus
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Pentax
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Sigma
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>General Electrics
+              </div>
+              <div className='firm__choice choice'>
+                <input className='choice__title title' type='checkbox'/>Zenit
+              </div>
             </div>
           </div>
         </>

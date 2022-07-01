@@ -35,6 +35,12 @@
     margin-left: 20px;
     margin-top: 20px;
 }
+.choice{
+    display: flex;
+}
 .title {
-    display: block;
+    font-display: flex;
+    /* display: block; */
+    flex-wrap: 
+    
 }
