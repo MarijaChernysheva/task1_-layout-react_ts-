@@ -1,0 +1,40 @@
+.search{
+    background-color: white;
+    height: 50%;
+}
+.buttonGroup {
+    display: block;
+    text-align: center;
+}
+.buttonResult {
+    margin-top: 30px;
+    width: 270px;
+    height: 50px;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 0.875rem;
+    background-color: #0072E5;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.buttonFilter{
+    margin-top: 10px;
+
+    height: 50px;
+    width: 270px;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 0.875rem;
+    background-color: #cfd0d1;
+    padding: 12px 24px;
+    color: rgb(67, 66, 66);
+    cursor: pointer;
+    border: none;
+}
+.manufacturer {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.title {
+    display: block;
+}

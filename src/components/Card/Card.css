@@ -1,0 +1,86 @@
+.card {
+    background-color: white;
+}
+.cardRating{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.blockImage {
+    display: block;
+    text-align: center;
+}
+.image{
+    width: 270px;
+    align-items: center;
+}
+ol{
+    list-style: none;
+}
+ol > .availability:before{
+    content: '✔';
+    color:rgb(123, 213, 32);
+}
+.availability{
+    font-size: 18px;
+    color:rgb(123, 213, 32);
+}
+.nameOfProduct {
+    margin: 20px;
+    font-size: 21px;
+}
+.descriptionOfProduct {
+    margin-left: 20px;
+    margin-top: 3px;
+}
+.options {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color:rgb(76, 75, 75)
+}
+.meaning {
+    font-size: 13px;
+}
+.price {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 27px;
+}
+.bonuse {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    color:rgb(0, 145, 255);
+}
+.footer {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    margin-left: 20px;
+    width: 150px;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 0.875rem;
+    background-color: #0072E5;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    border: none; 
+}
+.button:hover {
+      background-color: #007FFF;
+}
+.content {
+   display: flex;
+   justify-content: center;
+}
+.text {
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.icon {
+    margin-right: 20px;
+}
