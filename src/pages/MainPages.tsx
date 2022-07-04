@@ -4,13 +4,13 @@ import Search from '../components/Search/Search';
 
 import './MainPages.css'
 
-function MainPage() {
+const MainPage: React.FC = () => {
   
   return (
     <div className='mainPage'>
         <Card/>
-        <Card/>
-        <Card/>
+        {/* <Card/>
+        <Card/> */}
         <Search/>
      </div>
   );

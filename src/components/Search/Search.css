@@ -8,7 +8,7 @@
 }
 .buttonResult {
     margin-top: 30px;
-    width: 270px;
+    width: 85%;
     height: 50px;
     font-family: IBM Plex Sans, sans-serif;
     font-size: 0.875rem;
@@ -20,9 +20,8 @@
 }
 .buttonFilter{
     margin-top: 10px;
-
     height: 50px;
-    width: 270px;
+    width: 85%;
     font-family: IBM Plex Sans, sans-serif;
     font-size: 0.875rem;
     background-color: #cfd0d1;
@@ -32,15 +31,29 @@
     border: none;
 }
 .manufacturer {
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 20px 0 10px 20px;
 }
 .choice{
     display: flex;
 }
-.title {
-    font-display: flex;
-    /* display: block; */
-    flex-wrap: 
-    
+.firm {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 140px;
 }
+label {
+    margin-top: 5px;
+    /* width: 100px; */
+}
+label:hover {
+    cursor: pointer;
+    color: #0072E5
+}
+/* .title{че
+    float:left;
+} */
+

@@ -3,7 +3,7 @@ import MainPage from './pages/MainPages';
 
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <MainPage/>
   );
