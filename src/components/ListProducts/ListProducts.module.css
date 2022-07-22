@@ -1,43 +1,75 @@
 .card {
     background-color: white;
+    width: 307px;
+    height: auto;
+    padding: 15px;
+
 }
+
 .cardRating{
-    margin: 15px;
     display: flex;
     justify-content: space-between;
 }
+.article {
+    width: 105.7px;
+    height: 15px;
+    margin: 0 9.9px 15px 52.8px;
+    font-size: 11.8px;
+    font-weight: 300;
+    color: #bfbfbf;
+}
 .blockImage {
-    display: block;
+    display: flex;
     text-align: center;
 }
-.image{
-    width: 270px;
-    align-items: center;
+.image{    
+    width: 277.3px;
+    height: 200px;
+    object-fit: contain;
 }
 
 .availability{
-    margin-left: 20px;
-    font-size: 18px;
-    color:rgb(123, 213, 32);
+    width: 60.6px;
+    height: 16px;
+    margin: 22px 72.8px 5px 7.9px;
+    font-size: 12.9px;
+    font-weight: 300;
+    text-align: center;
+    color: #81c03d;
 }
 .nameOfProduct {
-    margin: 20px;
-    font-size: 21px;
-}
-.descriptionOfProduct {
-    margin-left: 20px;
-    margin-top: 3px;
+    width: 221.3px;
+    height: 66px;
+    margin: 5px 18.9px 17px 9px;
+    font-size: 17.8px;
+    color: #262626;
 }
 .options {
-    font-size: 11px;
-    letter-spacing: 1px;
-    color:rgb(76, 75, 75)
+    width: 223.3px;
+    height: 110px;
+    margin: 17px 16.9px 38px 9px;
+    font-size: 11.8px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #9b9b9b;
 }
 .meaning {
-    font-size: 13px;
+    width: 223.3px;
+    height: 110px;
+    margin: 17px 16.9px 38px 9px;
+    font-size: 11.8px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #4f4f4f;
 }
 .price {
-    margin-left: 20px;
+    margin-left: 17px;
     margin-top: 15px;
     font-size: 27px;
 }
@@ -45,37 +77,39 @@
     margin-left: 20px;
     margin-top: 10px;
     font-size: 13px;
-    color:rgb(0, 145, 255);
+    color:#0284c6;
 }
 .footer {
-    margin-top: 15px;
-    margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .button {
-    margin-left: 20px;
-    width: 150px;
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 0.875rem;
-    background-color: #0072E5;
-    padding: 12px 24px;
-    color: white;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
-    border: none; 
+    border: none;
+    width: 99px;
+    height: 35px;
+    margin: 38px 52.8px 0 9.9px;
+    padding: 7px 15.2px 9px 11.1px;
+    background-color: #0284c6
 }
 .button:hover {
       background-color: #007FFF;
 }
-.content {
-   display: flex;
-   justify-content: center;
-}
+
 .text {
-    margin-top: 3px;
-    margin-left: 7px;
-}
-.icon {
-    margin-right: 20px;
+    width: 44.1px;
+    height: 17px;
+    margin: 2px 0 0 10.1px;
+    font-family: ProximaNova;
+    font-size: 13.8px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
 }

@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Rating from '@mui/material/Rating';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import CheckIcon from '@mui/icons-material/Check';
 
 import styles from './ListProducts.module.css';
@@ -47,7 +46,7 @@ const ListProducts = () => {
         <div key={product.id} className={styles.card}>
           <div className={styles.cardRating}>
             <Rating value={3} />
-            <div>{product.code}</div>
+            <div className={styles.article}>Арт. {product.code}</div>
           </div>
           <div className={styles.blockImage}>
             <img className={styles.image} src="Photo.jpeg" />
@@ -59,17 +58,15 @@ const ListProducts = () => {
           {product.params.map((description: ProductСharacteristic) => (
             <div key={description.value} className={styles.descriptionOfProduct}>
               <span className={styles.options}>{description.name}</span>
-              <span className={styles.meaning}> {description.value}</span>
+              <span className={styles.meaning}>{description.value}</span>
             </div>
           ))}
           <div className={styles.price}>49 999 руб.</div>
           <div className={styles.bonuse}>+400 бонусов</div>
           <div className={styles.footer}>
             <button className={styles.button}>
-              <div className={styles.content}>
-                <AddShoppingCartIcon />
-                <div className={styles.text}>Купить</div>
-              </div>
+              <img src="cart.svg" />
+              <div className={styles.text}>Купить</div>
             </button>
             <Favorites inFav={product.inFav} />
           </div>
