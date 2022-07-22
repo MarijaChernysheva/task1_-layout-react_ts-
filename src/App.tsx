@@ -1,12 +1,14 @@
 import React from 'react';
-import MainPage from './pages/MainPages';
 
-import './App.css';
+import ListProducts from './components/ListProducts/ListProducts';
+import styles from './App.module.css';
 
-const App: React.FC = () => {
+const App = () => {
   return (
-    <MainPage/>
+    <div className={styles.app}>
+      <ListProducts />
+    </div>
   );
-}
+};
 
 export default App;

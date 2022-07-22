@@ -14,14 +14,9 @@
     width: 270px;
     align-items: center;
 }
-ol{
-    list-style: none;
-}
-ol > .availability:before{
-    content: '✔';
-    color:rgb(123, 213, 32);
-}
+
 .availability{
+    margin-left: 20px;
     font-size: 18px;
     color:rgb(123, 213, 32);
 }
